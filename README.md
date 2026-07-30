@@ -17,10 +17,10 @@ No framework, no dependencies. Plain markdown.
 
 | Prompt | Purpose | File |
 |---|---|---|
-| Anti-slop audit | Detect AI-generated cliche patterns in text | [`prompts/anti-slop-audit.md`](prompts/anti-slop-audit.md) |
-| Tradeoffs then recommend | Force explicit tradeoffs before a recommendation | [`prompts/tradeoffs-then-recommend.md`](prompts/tradeoffs-then-recommend.md) |
-| Code review pipeline | Five-stage code review with severity tags | [`prompts/code-review-pipeline.md`](prompts/code-review-pipeline.md) |
-| Structured output JSON | Force strict JSON responses for programmatic use | [`prompts/structured-output-json.md`](prompts/structured-output-json.md) |
+| Anti-slop audit | Detect AI-generated cliche patterns in text | [`anti-slop-audit.md`](anti-slop-audit.md) |
+| Tradeoffs then recommend | Force explicit tradeoffs before a recommendation | [`tradeoffs-then-recommend.md`](tradeoffs-then-recommend.md) |
+| Code review pipeline | Five-stage code review with severity tags | [`code-review-pipeline.md`](code-review-pipeline.md) |
+| Structured output JSON | Force strict JSON responses for programmatic use | [`structured-output-json.md`](structured-output-json.md) |
 
 ## Conventions
 
@@ -37,6 +37,10 @@ Pull requests welcome. Keep prompts:
 - Bounded (include length limits where it matters)
 - Parseable (structured output beats prose)
 - Tested (include a sample input and output if you can)
+
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
 
 ## License
 
