@@ -1,4 +1,4 @@
-# prompt-templates
+# failure-mode-prompts
 
 Production prompts for working with LLMs. Each one is built around a specific failure mode of default model behavior: AI slop, sycophantic recommendations, shallow code review, unstructured output.
 
